@@ -6,8 +6,8 @@ This repository contains the code and final paper for a project to use a convolu
 ## Dataset
 The dataset is too large to host on GitHub. To download it, please follow these instructions:
 1. run 'sudo pip install kaggle'
-2. run 'cd Final-Project-Group4/'
-3. run 'cp kaggle.json ~/.kaggle' ##Copy kaggle authentication json to kaggle directory
+2. create a kaggle account
+3. download your kaggle authentication json file
 3. run 'mkdir Dataset' ##Create Dataset folder
 5. run 'cd Dataset/'
 4. run 'kaggle datasets download -d crawford/deepsat-sat6 -w' ##Download dataset to current directory
